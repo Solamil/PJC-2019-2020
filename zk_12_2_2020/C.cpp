@@ -41,6 +41,8 @@ void printArrayInt(int *in_array, int length) {
 }
 /* konec - pomocne definice a alokace*/
 
+
+/* TATO CAST STACILO MIT UZ ZK - AZ DO RADKU 140*/
 /* 
 funce pro nacteni pole long jako int
 */
@@ -134,6 +136,8 @@ void  readArraysAsBytes(int *int_array, long *long_array, int length, int *long_
 		(*long_CRC) += temp_long_array[i];
 	}
 }
+
+/*KONEC CASTI, KTEROU BYLO TREBA MIT U ZK */
 
 int main() {
 	long *long_array;
